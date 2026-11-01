@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.BumiAtlas/botswana-land-plots",
+  "title": "Botswana Land Plots (LAPCAS · Gaborone lots)",
+  "description": "Botswana LAPCAS plots and Gaborone lots by plot number and village, lot number or coordinates.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/BumiAtlas/botswana-land-plots-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://bumiatlas.com/mcp-docs/botswana",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bumiatlas.com/mcp/botswana"
+    }
+  ]
+}
